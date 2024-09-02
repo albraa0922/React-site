@@ -1,0 +1,124 @@
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 85px;
+  position: sticky;
+  font-size: 1.2rem;
+  z-index: 999;
+  top: 0;
+}
+.navbar-cont{
+  width: 85%;
+  margin: auto;
+}
+.navbar-logo {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-top: 20px;
+  display: flex;
+  float: left;
+  color: white;
+}
+.toggleablemenu{
+  float: right;
+  margin: 23px 0 0;
+}
+.toggle-button{
+  background-color: #fff;
+  display: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+.toggle-button p {
+  font-size: 50px;
+  margin: -37px 5px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  
+}
+.toggle-button p span{
+  background-image: url(../imges/menu.png);
+  background-size: cover;
+  margin: 22px -3px;
+  background: c;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  margin-right: 2rem;
+}
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+.navbar .sin-up{
+  height: 50px;
+  background-color: #fff0;
+  width: 100px;
+  border: solid 1px #fff;
+  font-size: 1rem;
+}
+.navbar .sin-up:hover{
+  background-color: #ffffff;
+}
+
+.navbar .sin-up:hover a{
+
+  color: #000;
+}
+
+@media screen and (max-width: 960px) {
+  .toggle-button{
+    display: block;
+  }
+  .nav-menu {
+    width: 0;
+    height: 80vh;
+    position: absolute;
+    background: #242222;
+    top: 80px;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .flex{
+    width: 100%;
+    height: 750px;
+  }
+  .navbar-container{
+    margin: 0 auto;
+  }
+  .nav-menu .nav-links{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin: 30% auto;
+  }
+  .nav-menu .sin-up .nav-links{
+    margin-top: 5px;
+  }
+  .nav-menu.active {
+    display: block;
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+
+}
