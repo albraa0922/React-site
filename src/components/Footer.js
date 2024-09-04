@@ -20,7 +20,7 @@ function Footer() {
         <p className='head'>Join the Adventure to receive our best vacation deals</p>
         <p>You can unsubscribe any time.</p>
         <form>
-          <input type='email' placeholder='Your Email' value={myInput} onChange={inputChange}></input>
+          <input type='email' placeholder='Your Email'  value={myInput} onChange={inputChange}></input>
           <But className="left  btn">Sucbscribe</But>
         </form>
       </section>
