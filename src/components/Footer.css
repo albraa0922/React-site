@@ -65,7 +65,9 @@
     max-width: 1000px;
     padding-bottom: 10px;
     margin: 50px auto 0px;
-    align-items: center;
+}
+.Social small {
+    margin-bottom: 7px;
 }
 .Social .icon img{
     fill: #fff;
@@ -81,6 +83,9 @@
     }
     .footer-links .footer-wrap .marg{
         margin-top: 20px;
+    }
+    .Social .icon img{
+        margin-left: 17px;
     }
     
 }
