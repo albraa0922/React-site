@@ -1,6 +1,7 @@
 import React from 'react'
 import "./HeroSec.css"
 import But from './But.js'
+import { Link } from 'react-router-dom'
 
 
 function HeroSec() {
@@ -11,8 +12,12 @@ function HeroSec() {
             <h1>ADVENTURE AWITS</h1>
             <p>What are you waiting for</p>
             <div>
-              <But className="left  btn">GET STARTED</But>
-              <But className="right btn">WATCH NOW</But>
+              <Link to="/Sign">
+                <But className="left  btn">GET STARTED</But>
+              </Link>
+              <Link to="/products">
+                <But className="right btn">WATCH NOW</But>
+              </Link>
             </div>
         </div>
       </div>

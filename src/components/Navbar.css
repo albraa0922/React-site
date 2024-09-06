@@ -32,13 +32,17 @@
   border: none;
   margin: 0;
   cursor: pointer;
+  position: relative;
 }
 .toggle-button p {
   font-size: 50px;
-  margin: -37px 5px;
   text-align: center;
   width: 35px;
   height: 35px;
+  position: absolute;
+  top: -19px;
+  left: 5px;
+
   
 }
 .toggle-button p span{
@@ -69,14 +73,13 @@
 .navbar .sin-up{
   height: 50px;
   background-color: #fff0;
-  width: 100px;
+  width: 110px;
   border: solid 1px #fff;
   font-size: 1rem;
 }
 .navbar .sin-up:hover{
   background-color: #ffffff;
 }
-
 .navbar .sin-up:hover a{
 
   color: #000;
